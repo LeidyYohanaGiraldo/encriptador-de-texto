@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="./assets/Logo3.png" alt="Logo de la pàgina">
+        </div>
+        <div class="header__nombre">
+            <h1></h1>
+        </div>
+    </header>
+    <main class="contenido">
+        <span id="mensajeInformativo" style="white-space: pre-wrap "></span>
+        <p id="textoInformativo" ></p> 
+        <input type="text" id="inputTextoIngresado" placeholder="Ingrese el texto aquì">
+        
+        <button onclick="encriptarTexto();" class="contenido__boton">Encriptar</button>
+        <button onclick="desencriptarTexto();" class="contenido__boton" id="desencriptar" >Desencriptar</button>
+        
+        <div id="presentacion__contenido">
+            <input type="text" id="inputPresentacionTexto">
+            <img id="contenidoImagen" src="./assets/Muñeco.png" alt="Imagén de busqueda con lupa">
+            <button onclick="copiarTexto('inputPresentacionTexto')" >Copiar</button>
+        </div>   
+
+    </main>
+    <footer>
+    <p>Copyright &#169 2024', Leidy Yoana Giraldo Jaramillo</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+:root {
+    --color-primario: #F3F5FC;
+    --color-secundario: #67e0d0;
+    --color-terciario: #2E2F31;
+    --color-hover: #272727;
+
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
